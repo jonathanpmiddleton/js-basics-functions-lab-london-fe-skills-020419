@@ -13,7 +13,9 @@ function distanceTravelledInFeet(startBlock, endBlock) {
   return Math.abs(startBlock-endBlock)*264;
 }
 
-switch (calculatesFarePrice(start, destination)) {
+function calculatesFarePrice(start, destination) {
+  var distance = distanceTravelledInFeet;
+  switch() { 
   case 1: (start-destination)*264 >=2500;
   return "cannot travel that far";
     break;
@@ -29,5 +31,6 @@ switch (calculatesFarePrice(start, destination)) {
   case 4: (start-destination) <2000;
     return Math.abs(start-destination)*264*0.02;
     break;
+  }
 }
  //43, 48)).to.equal(1320)//
