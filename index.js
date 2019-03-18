@@ -14,4 +14,5 @@ function distanceTravelledInFeet(startBlock, endBlock) {
 }
 
 
+
  //43, 48)).to.equal(1320)//
