@@ -19,7 +19,11 @@ switch (calculatesFarePrice(start, destination)) {
     break;
   
   case 2: (start-destination)*264 >=2000;
-    return "$25"
+    return "25";
+    break;
+    
+  case 3: (start-destination)*264 >=2000;
+    return
     break;
     
 }
