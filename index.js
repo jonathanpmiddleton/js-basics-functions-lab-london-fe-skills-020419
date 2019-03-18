@@ -26,7 +26,8 @@ switch (calculatesFarePrice(start, destination)) {
     return "0";
     break;
     
-  case 4: 
-    
+  case 4: (start-destination) <2000;
+    return Math.abs(start-destination)*264*0.02;
+    break;
 }
  //43, 48)).to.equal(1320)//
