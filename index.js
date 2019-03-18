@@ -15,20 +15,20 @@ function distanceTravelledInFeet(startBlock, endBlock) {
 
 function calculatesFarePrice(start, destination) {
   var distance = distanceTravelledInFeet(start, destination);
-  if Math.abs(start-destination)*264 >=2500;
+  if distance >=2500;
   return "cannot travel that far";
     break;
   
-  else if Math.abs(start-destination)*264 >=2000;
+  else if distance >=2000;
     return "25";
     break;
     
-  else if Math.abs(start-destination) <=400;
+  else if distance <=400;
     return "0";
     break;
     
-  else Math.abs(start-destination) <2000;
-    return Math.abs(start-destination)*264*0.02;
+  else distance <2000;
+    return distance*264*0.02;
     break;
   }
 }
