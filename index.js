@@ -22,7 +22,7 @@ function calculatesFarePrice(start, destination) {
     return "25";
 }
   else if (distance <=400) {
-    return "0";
+    return 0;
   }
   else {
     return distance*264*0.02;
