@@ -28,4 +28,3 @@ function calculatesFarePrice(start, destination) {
     return (distance-400)*0.02;
   }
 }
- //43, 48)).to.equal(1320)//
