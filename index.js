@@ -22,9 +22,11 @@ switch (calculatesFarePrice(start, destination)) {
     return "25";
     break;
     
-  case 3: (start-destination)*264 >=2000;
-    return
+  case 3: (start-destination)*264 <=400;
+    return "0";
     break;
+    
+  case 4: 
     
 }
  //43, 48)).to.equal(1320)//
