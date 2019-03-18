@@ -15,12 +15,11 @@ function distanceTravelledInFeet(startBlock, endBlock) {
 
 switch (calculatesFarePrice(start, destination)) {
   case 1: (start-destination)*264 >=2500;
-  return ""
-    
+  return "cannot travel that far";
     break;
   
-  case 2:
-    
+  case 2: (start-destination)*264 >=2000;
+    return "$25"
     break;
     
 }
