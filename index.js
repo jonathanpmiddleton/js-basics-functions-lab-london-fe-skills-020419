@@ -13,10 +13,6 @@ function distanceTravelledInFeet(startBlock, endBlock) {
   return Math.abs(startBlock-endBlock)*264;
 }
 
-function calculatesFarePrice(start, destination) {
-  if Math.abs(start-destination)<=400;
-  return "gives customers a free sample";
-  
-}
+
 
  //43, 48)).to.equal(1320)//
