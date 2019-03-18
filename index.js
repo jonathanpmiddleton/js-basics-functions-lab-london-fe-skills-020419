@@ -15,7 +15,9 @@ function distanceTravelledInFeet(startBlock, endBlock) {
 
 function calculatesFarePrice(start, destination) {
   if Math.abs(start-destination)>=2500;
-  return "gives customers a free sample";
+  return "cannot travel that far";
+  else if Math.abs(start-destination)>=2000;
+  return ""
   
 }
 
