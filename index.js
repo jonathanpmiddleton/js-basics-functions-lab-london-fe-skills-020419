@@ -9,9 +9,7 @@ function distanceFromHqInFeet(feet) {
   return distanceFromHqInBlocks(feet)*264;
 }
 
-let startBlock=
-
-function distanceTravelledInFeet(feet) {
+function distanceTravelledInFeet(startBlock, endBlock) {
   return Math.abs(startBlock-endBlock)*264;
 }
 
